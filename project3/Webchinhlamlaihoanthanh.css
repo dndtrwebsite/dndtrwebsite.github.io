@@ -1,0 +1,145 @@
+<style>
+	
+	[class*="col-"] {width: 100%;}
+	
+	#div1 li{float:left;
+	list-style-type:none;
+	padding:10px;}
+	
+	#div1 a{text-decoration:none;
+	color:gray;
+	text-transform:uppercase;}
+	
+	#div2 li{float:right;
+	list-style-type:none;
+	padding:10px;}
+	
+	.left{margin-right:0px;}
+	
+	#div2 a{text-decoration:none;
+	color:gray;
+	text-transform:uppercase;
+}
+	.color1{background:white;}
+	
+	/*#img{width:100%;
+	position:relative;
+	z-index:1;}
+	
+	#div31{position:absolute;
+	top:15%; left:10%;
+	color:white;
+	z-index:2;}*/
+	
+	#div31{background-image: url('https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png'); height:400px;width:100%;
+	padding:100px 0 0 20px;
+	color:white;
+	background-repeat:no-repeat;
+	background-size: cover;}
+	#div31 p{margin:0;}
+	
+	.div41{padding:0 10px;}
+	
+	/*#div42{
+	max-width:100%;
+	background:#DFE2E5;
+	overflow:auto;
+	padding:5px 35px;}*/
+	
+	
+	/*.div421{float:left;
+	max-width:33.333%;
+	padding:10px;}
+	.div421 img{width:100%;}
+	.div421 img:last-child{width:101.5%;}
+	.bottom{margin-top: 10%;}*/
+	
+	
+	/*.div431{float:left;
+	padding:10px;
+	width:33.2%;}*/
+	
+	
+	/*#div43 {max-width:100%;
+	background:#EAEDF0;
+	overflow:auto;
+	height:150px;
+	padding:15px 35px 0 32px;;
+	}*/
+	
+	.col-md-4{padding:0 0 15px 0;}
+	.col-md-4 img{padding:10px 0 20px 0;width:100%; }
+	
+	*{box-sizing:border-box;
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+	.color2{background:#D2D4D4;}
+	.color2 p{margin: 0 0 30px;}
+	.color3{background:#E7E7E7;}
+	
+	@media screen and (max-width: 992px) {
+  .color1 {
+    background-color: #2F4B64;
+  }
+  .color2{
+  background-color:white;}
+	#div1 a,#div2 a{color:white;
+	}	
+.color3{
+  background-color:white;}	
+  
+  #div31{background-image:none;
+  color:black;
+  height:auto;
+  padding:20px;
+  border-bottom:1px solid black;}
+  
+    .col-sm-1 {width: 8.33%;}
+    .col-sm-2 {width: 16.66%;}
+    .col-sm-3 {width: 25%;}
+    .col-sm-4 {width: 33.33%;}
+    .col-sm-5 {width: 41.66%;}
+    .col-sm-6 {width: 50%;}
+    .col-sm-7 {width: 58.33%;}
+    .col-sm-8 {width: 66.66%;}
+    .col-sm-9 {width: 75%;}
+    .col-sm-10 {width: 83.33%;}
+    .col-sm-11 {width: 91.66%;}
+    .col-sm-12 {width: 100%;}
+}
+
+
+@media screen and (max-width:768px) {
+	#div1 a,#div2 a{font-size:10px;}
+	}
+
+	
+	@media only screen and (min-width: 992px) {
+    .col-md-1 {width: 8.33%;}
+    .col-md-2 {width: 16.66%;}
+    .col-md-3 {width: 25%;}
+    .col-md-4 {width: 33.33%;}
+    .col-md-5 {width: 41.66%;}
+    .col-md-6 {width: 50%;}
+    .col-md-7 {width: 58.33%;}
+    .col-md-8 {width: 66.66%;}
+    .col-md-9 {width: 75%;}
+    .col-md-10 {width: 83.33%;}
+    .col-md-11 {width: 91.66%;}
+    .col-md-12 {width: 100%;}
+	.col-md-4 img{padding:0 0 9% 0;}
+	#div31 h1{font-family:serif; font-weight:bold; font-size:300%;}
+	#div31 p{font-size:150%;}
+	
+
+}
+@media screen and (max-width: 300px){
+	#div1 a,#div2 a{font-size:2px;}
+	.color2 h2{font-size:20px;}
+	#div31 h1{font-size:20px;}
+}
+
+</style>
