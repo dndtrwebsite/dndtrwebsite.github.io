@@ -1,0 +1,12 @@
+<style>
+[class*="col-"] {width: 100%;}
+body{text-align: center; background-color: #E7E8E9;}
+.border{border: 1px solid gray;
+background-color: white;
+width: 20%; padding:10px 10px 30px 10px;
+border-radius: 5%;}
+.font{font-family: 'Roboto Slab', serif; padding:10px;}
+.font a{text-decoration: none;}
+
+    
+</style>
