@@ -1,0 +1,36 @@
+<style>
+[class*="col-"] {width: 100%;}
+.logobar{background-image: linear-gradient(-45deg,#380a79,#6016bb,#73519e); height: 150px;}
+.logo{color: wheat; font-size: 70px; text-transform: uppercase; opacity: 0.8; font-weight: 50px;}
+
+.right{text-align: right;}
+
+img{margin-left: auto; margin-right: auto; display: block;width:50%;}
+*{font-family: 'Roboto Slab', serif;}
+body{line-height:1.8; margin: 0; padding: 0; border: 0; background-color: rgb(226, 224, 224);}
+.center{text-align: center;}
+.thempadding{padding:10px;}
+a{text-decoration: none; color: cadetblue;}
+li{list-style-type: none; padding: 10px;}
+div li{display: inline; margin:0 10%;}
+div ul{margin: 0; padding: 10px 0 10px 0;}
+.menu{background-color:rgb(17, 17, 17,1);}
+.menu ul{margin: 0; padding: 5px 0 30px 0;}
+
+
+
+.dkdn{text-align: right; padding: 10px;}
+
+
+.suafont{font-family: 'Roboto Slab', serif;}
+ .trangchinh{width:60%; background-color: white; padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+max-width: 100%; height:auto;}   
+}
+
+.facebookbutton{width: 20px; height: 50px; background: #0151BB; border-radius: 50%; position: absolute; display: inline;}
+
+
+    @media (max-width:1030px) {.trangchinh{width: 90%;};h1{font-size: 30px;}; h3{font-size: 19px;};a{font-size: 14px;}; body{line-height: 1.9;};p{font-size: 20px;}}
+    @media (max-width:770px) {.trangchinh{width:100%;}; p{font-size: 11px;}; img{width: 80%;};h3{font-size: 17px;};h1{font-size: 23px;} #hidden{display: none;} .menu ul{padding: 5px 0 5px 0; text-align: right;}  .logo{font-size: 25px; line-height:auto;} .dkdn{text-align: left;} .logobar{height: 60px;}}
+</style>
