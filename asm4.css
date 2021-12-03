@@ -28,7 +28,9 @@ div ul{margin: 0; padding: 10px 0 10px 0;}
 max-width: 100%; height:auto;}   
 }
 
-.facebookbutton{width: 20px; height: 50px; background: #0151BB; border-radius: 50%; position: absolute; display: inline;}
+button{background-color: #1642bb;}
+#ball{background-color: #1642bb; border-radius: 50%; width: 30px; height: 30px;}
+#face{color:white; text-decoration: none;}
 
 
     @media (max-width:1030px) {.trangchinh{width: 90%;};h1{font-size: 30px;}; h3{font-size: 19px;};a{font-size: 14px;}; body{line-height: 1.9;};p{font-size: 20px;}}
